@@ -10,6 +10,7 @@ body {
   min-height: 450px;
   height: 100vh;
   margin: 0;
+  background-color: #01555b;
   background-image: url(back-01.svg);
   color: #fff;
   font-family: "Open Sans", sans-serif;
