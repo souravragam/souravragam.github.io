@@ -86,24 +86,24 @@
         
         <div class="row">
           <div class="column" style="height:70px" >
-            <img src="egci.svg" width="130px" height="auto" style="margin-top: 0px; margin-left: 20px;">
+            <!--<img src="egci.svg" width="130px" height="auto" style="margin-top: 0px; margin-left: 20px;">-->
            
           </div>
           <div class="column" style="height:70px">
-            <img src="ieee1.svg" width="90px"  style="margin-top: 0px; float: right;">
+            <!--<img src="ieee1.svg" width="90px"  style="margin-top: 0px; float: right;">-->
            
           </div>
         </div>
         <div>
         
-            <img src="jumanjo.svg" width="250px"  style="margin-top: 1rem; align-content: center; display: block; margin-right: auto; margin-left: auto;">
+            <img src="images/KAV LOGO.png" width="250px"  style="margin-top: 1rem; align-content: center; display: block; margin-right: auto; margin-left: auto;">
         
         </div>
         <div style="text-align: center;margin-top: 1em; color:rgb(230, 230, 230);">
-        has conlcuded 
+        Organised by
         </div>
         <div style="text-align: center;color:rgb(230, 230, 230);">
-            thanks for being apart of it
+            <span class="bold"> HRD </span> Cell, GEC idukki
             </div>
         <div class="row">
             <div class="column" style="height:70px;" >
@@ -116,17 +116,41 @@
         
   
     </div>
+    
     <div>
-      <div class="card" style="background-color:  #033e4298; opacity: 95%;">
-        <img src="6-01.jpg" alt="John" style="width:100%">
-        <h1>winners</h1>
-        <p class="title">Team 1 - Technocrats</p>
-        <p>Harvard University</p>
 
+        
+      <div class="card" style="background-color:  #c40c0c00; opacity: 95%;">
+       
+        <img src="images/day.png" width="250px"  style="margin-top: 1rem; align-content: center; display: block; margin-right: auto; margin-left: auto;">
+       
+
+        <div class="tablu">
+            <table>
+              <caption></caption>
+          <tr>
+            <th>Pos</th>
+            <th>Name</th>
+            <th>points</th>
+          
+            </tr>
+           <tr>
+            <td>1</td>
+            <td>Computer Science and Engineering</td>
+            <td>100</td>
+          
+          
+          
+          </table>
+          </div>
+  
+
+
+        
         
         <style>
           .card {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+         
             background-color: rgb(5, 21, 36), 59);
             max-width: 300px;
             margin: auto;
@@ -215,16 +239,16 @@ Your browser does not support the audio element.
             var r = getRandomInt(min, max);
             var vel = getRandomInt(3, 10);
             var clicked = false;
-            var colour = "#033e4298";
+            var colour = "rgba(154, 0, 0, 0.247)";
             switch (i){
                 case 1:
-                    colour = "#033e4298";
+                    colour = "rgba(154, 0, 0, 0.247)";
                     break;
                 case 2:
-                    colour = "#033e4298";
+                    colour = "rgba(154, 0, 0, 0.247)";
                     break;
                 case 3:
-                    colour = "#033e4298";
+                    colour = "rgba(154, 0, 0, 0.247)";
                     break;
             }
             var isAlive = true;
@@ -273,7 +297,7 @@ Your browser does not support the audio element.
                         particleCount--;
                     }
                     circles[i][6] = false;
-                    if (circles[i][5] == "#033e4298"){
+                    if (circles[i][5] == "rgba(154, 0, 0, 0.247)"){
                         pinkBubbleSound.play(0);
                     } else if (i % 4 === 0){
                         pinkBubbleSound.play(0);
@@ -354,29 +378,29 @@ Your browser does not support the audio element.
             var posY = event.clientY - rect.top;
             for(var i = 0; i<circles.length; i++ ){
                 if (Math.sqrt((posX-circles[i][0])*(posX-circles[i][0]) + (posY-circles[i][1])*(posY-circles[i][1])) < circles[i][2]){
-                    circles[i][5] = "#033e4298";
+                    circles[i][5] = "#rgba(154, 0, 0, 0.247)";
                     switch (i){
                         case 1:
-                            circles[i][5] = "#033e4298";
+                            circles[i][5] = "rgba(154, 0, 0, 0.247)";
                             break;
                         case 2:
-                            circles[i][5] = "#033e4298";
+                            circles[i][5] = "rgba(154, 0, 0, 0.247)";
                             break;
                         case 3:
-                            circles[i][5] = "#033e4298";
+                            circles[i][5] = "rgba(154, 0, 0, 0.247)";
                             break;
                     }
                 } else {
-                    circles[i][5] = "#033e4298";
+                    circles[i][5] = "rgba(154, 0, 0, 0.247)";
                     switch (i){
                         case 1:
-                            circles[i][5] = "#033e4298";
+                            circles[i][5] = "rgba(154, 0, 0, 0.247)";
                             break;
                         case 2:
-                            circles[i][5] = "#033e4298";
+                            circles[i][5] = "rgba(154, 0, 0, 0.247)";
                             break;
                         case 3:
-                            circles[i][5] = "#033e4298";
+                            circles[i][5] = "rgba(154, 0, 0, 0.247)";
                             break;
                     }
                 }
