@@ -10,9 +10,9 @@ body {
   min-height: 450px;
   height: 100vh;
   margin: 0;
-  background-color: #01555b;
+  background-color: #000000;
   color: #fff;
-  background: url(images/blue1.jpg) no-repeat center center fixed;
+  /**background: url(images/blue1.jpg) no-repeat center center fixed;**/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
