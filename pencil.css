@@ -98,5 +98,17 @@ body {
 }
 
 
+.table
+{
+  background-color: #000000;
+  color: rgb(242, 22, 22);
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 6rem;
+  
+}
 
-
+.dept
+{
+  background-color: #033e4298;
+}
