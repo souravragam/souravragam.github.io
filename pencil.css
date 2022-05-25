@@ -46,12 +46,7 @@ body {
   background-color: #4a94e8;
   flex-wrap: wrap;
 }
-.canvas {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 57%;
-}
+
 .container-item {
   position: relative;
   pointer-events: none;
@@ -190,4 +185,6 @@ tbody {
 {
   background-color: #310101;
 }
+
+
 
