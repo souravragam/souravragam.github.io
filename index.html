@@ -18,7 +18,7 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" /> 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -42,6 +42,7 @@
       $(document).ready(function () {
         $("body").bootstrapMaterialDesign();
       });
+      
     </script>
     <link
       rel="stylesheet"
@@ -55,12 +56,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+   
     
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100italic'" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>pencil</title>
     <link rel="stylesheet" href="pencil.css" />
   </head>
@@ -103,7 +107,7 @@
             <img src="images/KAV LOGO.png" width="250px"  style="margin-top: 1rem; align-content: center; display: block; margin-right: auto; margin-left: auto;">
         
         </div>
-        <div style="text-align: center;margin-top: 1em; color:rgb(230, 230, 230);">
+        <div style="text-align: center;margin-top: 1rem; color:rgb(230, 230, 230);">
         Organised by
         </div>
         <div style="text-align: center;color:rgb(230, 230, 230);">
@@ -126,20 +130,20 @@
         
       <div class="card" style="background-color:  #c40c0c00; opacity: 95%;">
        
-        <img src="images/day.png" width="250px"  style="margin-top: 1rem; align-content: center; display: block; margin-right: auto; margin-left: auto;">
+        <img src="images/day.png" width="250px"  style="margin-top: rem; align-content: center; display: block; margin-right: auto; margin-left: auto;">
        
 
         
         
         <style>
-          .card {
+          /* .card {
          
             background-color: rgb(5, 21, 36), 59);
             max-width: 300px;
             margin: auto;
             text-align: center;
             font-family: arial;
-          }
+          } */
           
           .title {
             color: grey;
@@ -188,69 +192,240 @@
  
             </script>
                 
-      <div class="table">
+      <div class="tableouter">
  
       
       
       
-      
-      
-        <table id="t01" class="table" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+        
+        <table id="" class="table deptt" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
           <tbody>
+            <div class="">
+            <tr class="" >
+              <td class="rank" width="25%">Rank</td>
+              <td width="60%" >Department</td>
+              <td style="text-align:middle;" colspan="4;" class="points">points </td>
             
-            <tr class="header expand" bgcolor="#E1E1E1">
-              <td><button onclick="myFunction()" style="width: ;10px">5</button></td>
+            </tr>
+            <i class="fa-light fa-down"></i>
+          
+        
+          </tbody>
+        </table>
+        </table>
+
+       
+
+        
+      
+        <table id="" class="table deptt" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+          <tbody>
+            <tr  >
+              <td><button onclick="myFunctioncse()" class="clickbtn"><i class="fa-solid fa-caret-down" style="font-size:20px" ></i></button></td>
               <td>1</td>
-              <td>Electrical and electronic Engineering</td>
-              <td style="text-align:middle;" colspan="4;">14 points </td>
+              <td width="60%">Computer Science and Engineering</td>
+              <td style="text-align:middle;" colspan="4;" class="points"><span style="font-weight:bold; font-size: 15px;">14</span> points </td>
             </tr>
         
           </tbody>
         </table>
 
-        <div id="myDIV" style="display: none; width: 100%;" class="events w3-animate-bottom">
-        <table id="" class="table" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
-          <tbody>
-            
-            <tr style="font-size:70%">
-              <td style="font-weight:700">Short Story Malayalam</td>
-              <td class="participants">1. Silpa (S4 CSE)</td>
-              <td class="participants">2. Sanjay (S4 CSE)</td>
-              <td class="participants">3. vishnu (S4 CSE)</td>
-            </tr>
-        
-          </tbody>
-        </table>
-        </div>
 
         
-      
-        <table id="" class="table" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
-          <tbody>
-            <tr class="dept" >
-              <td><button onclick="myFunction2()" style="width: ;10px">5</button></td>
+        <div id="cse" style="display: none; width: 100%;" class="events w3-animate-bottom">
+          <table id="" class="table" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+            <tbody>
+              
+              <tr style="font-size:75%">
+                <td style="font-weight:700">Short Story Malayalam</td>
+                <td class="participants">1. Silpa  S4</td>
+                <td class="participants">2. Sanjay S4</td>
+                <td class="participants">3. vishnu S4</td>
+              </tr>
+          
+            </tbody>
+          </table>
+
+
+          <table id="" class="table" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+            <tbody>
+              
+              <tr style="font-size:75%">
+                <td style="font-weight:700">Short Story Malayalam</td>
+                <td class="participants">1. Silpa  S4</td>
+                <td class="participants">2. Sanjay S4</td>
+                <td class="participants">3. vishnu S4</td>
+              </tr>
+          
+            </tbody>
+          </table>
+          <table id="" class="table" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+            <tbody>
+              
+              <tr style="font-size:75%">
+                <td style="font-weight:700">Short Story Malayalam</td>
+                <td class="participants">1. Silpa  S4</td>
+                <td class="participants">2. Sanjay S4</td>
+                <td class="participants">3. vishnu S4</td>
+              </tr>
+          
+            </tbody>
+          </table>
+  
+          
+          </div>
+
+
+
+
+
+        
+        <table id="" class="table deptt" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+            <tr>
+              <td><button onclick="myFunctionece()" class="clickbtn"><i class="fa-solid fa-caret-down" style="font-size:20px" ></i></button></td>
               <td>1</td>
-              <td>Electrical and electronic Engineering</td>
-              <td style="text-align:middle;" colspan="4;">14 points </td>
+              <td width="60%">Electronics and Communication Engineering</td>
+              <td style="text-align:middle;" colspan="4;" class="points"><span style="font-weight:bold; font-size: 15px;">14</span> points </td>
+            </tr>
+        
+          </tbody>
+        </table>
+        </table>
+
+        
+        <div id="ece" style="display: none; width: 100%;" class="events w3-animate-bottom">
+          <table id="" class="table" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+            <tbody>
+              
+              <tr style="font-size:75%">
+                <td style="font-weight:700">Short Story Malayalam</td>
+                <td class="participants">1. Silpa  S4</td>
+                <td class="participants">2. Sanjay S4</td>
+                <td class="participants">3. vishnu S4</td>
+              </tr>
+          
+            </tbody>
+          </table>
+          <table id="" class="table" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+            <tbody>
+              
+              <tr style="font-size:75%">
+                <td style="font-weight:700">Short Story Malayalam</td>
+                <td class="participants">1. Silpa  S4</td>
+                <td class="participants">2. Sanjay S4</td>
+                <td class="participants">3. vishnu S4</td>
+              </tr>
+          
+            </tbody>
+          </table>
+          <table id="" class="table" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+            <tbody>
+              
+              <tr style="font-size:75%">
+                <td style="font-weight:700">Short Story Malayalam</td>
+                <td class="participants">1. Silpa  S4</td>
+                <td class="participants">2. Sanjay S4</td>
+                <td class="participants">3. vishnu S4</td>
+              </tr>
+          
+            </tbody>
+          </table>
+  
+          
+          </div>
+
+
+
+        <table id="" class="table deptt" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+          <tbody>
+            <tr>
+              <td><button onclick="myFunctionme()" class="clickbtn"><i class="fa-solid fa-caret-down" style="font-size:20px" ></i></button></td>
+              <td>1</td>
+              <td width="60%">Mechanical Engineering</td>
+              <td style="text-align:middle;" colspan="4;" class="points"><span style="font-weight:bold; font-size: 15px;">14</span> points </td>
             </tr>
         
           </tbody>
         </table>
 
-        <div id="myDIV2" style="display: none; width: 100%;" class="events w3-animate-bottom">
-        <table id="" class="table" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+
+
+        
+        <div id="me" style="display: none; width: 100%;" class="events w3-animate-bottom">
+          <table id="" class="table" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+            <tbody>
+              
+              <tr style="font-size:75%">
+                <td style="font-weight:700">Short Story Malayalam</td>
+                <td class="participants">1. Silpa  S4</td>
+                <td class="participants">2. Sanjay S4</td>
+                <td class="participants">3. vishnu S4</td>
+              </tr>
+          
+            </tbody>
+          </table>
+    
+          
+          </div>
+
+
+
+
+
+        <table id="" class="table deptt" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
           <tbody>
-            
-            <tr style="font-size:70%">
-              <td style="font-weight:700">Short Story Malayalam</td>
-              <td class="participants">1. Silpa (S4 CSE)</td>
-              <td class="participants">2. Sanjay (S4 CSE)</td>
-              <td class="participants">3. vishnu (S4 CSE)</td>
+            <tr>
+              <td><button onclick="myFunctionit()" class="clickbtn"><i class="fa-solid fa-caret-down" style="font-size:20px" ></i></button></td>
+              <td>1</td>
+              <td width="60%">Information Technology</td>
+              <td style="text-align:middle;" colspan="4;" class="points"><span style="font-weight:bold; font-size: 15px;">14</span> points </td>
             </tr>
         
           </tbody>
         </table>
-      </div>
+
+
+        
+        <div id="it" style="display: none; width: 100%;" class="events w3-animate-bottom">
+          <table id="" class="table" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+            <tbody>
+              
+              <tr style="font-size:75%">
+                <td style="font-weight:700">Short Story Malayalam</td>
+                <td class="participants">1. Silpa  S4</td>
+                <td class="participants">2. mohammed fahim rahman s S4</td>
+                <td class="participants">3. vishnu S4</td>
+              </tr>
+          
+            </tbody>
+          </table>
+          <table id="" class="table" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+            <tbody>
+              
+              <tr style="font-size:75%">
+                <td style="font-weight:700">Short Story Malayalam</td>
+                <td class="participants">1. Silpa  S4</td>
+                <td class="participants">2. Sanjay S4</td>
+                <td class="participants">3. vishnu S4</td>
+              </tr>
+          
+            </tbody>
+          </table>
+          <table id="" class="table" style="font-family:Arial, Helvetica, sans-serif; width: 100%;">
+            <tbody>
+              
+              <tr style="font-size:70%">
+                <td style="font-weight:700">Short Story Malayalam</td>
+                <td class="participants">1. Silpa  S4</td>
+                <td class="participants">2. Sanjay S4</td>
+                <td class="participants">3. vishnu S4</td>
+              </tr>
+          
+            </tbody>
+          </table>
+  
+          
+          </div>
 
       
       </div>
@@ -271,8 +446,17 @@
       
       
         <script>
-        function myFunction() {
-          var x = document.getElementById("myDIV");
+        function myFunctioncse() {
+          var x = document.getElementById("cse");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }IPCONFIG
+
+        function myFunctionit() {
+          var x = document.getElementById("it");
           if (x.style.display === "none") {
             x.style.display = "block";
           } else {
@@ -281,8 +465,8 @@
         }
       
       
-        function myFunction2() {
-          var x = document.getElementById("myDIV2");
+        function myFunctioneee() {
+          var x = document.getElementById("eee");
           if (x.style.display === "none") {
             x.style.display = "block";
           } else {
@@ -290,6 +474,24 @@
           }
         }
       
+        function myFunctionece() {
+          var x = document.getElementById("ece");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+
+
+        function myFunctionme() {
+          var x = document.getElementById("me");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
       
         </script>
         </body>
@@ -313,7 +515,7 @@ Your browser does not support the audio element.
 <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/630634/pop.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
-     <!--<script>
+     <script>
       (function () {
         /**
          * Created by emmanuel on 13/02/2017.
@@ -333,8 +535,8 @@ Your browser does not support the audio element.
         var resetBtn = document.getElementById("reset");
         var isFirstTime = true;
         var context = canvas.getContext('2d');
-        var min = 8;
-        var max = 10;
+        var min = 0.5;
+        var max = 1;
         var circles = [];
 				var tries = 0;
         //preparing bubbles
@@ -344,16 +546,16 @@ Your browser does not support the audio element.
             var r = getRandomInt(min, max);
             var vel = getRandomInt(3, 10);
             var clicked = false;
-            var colour = "rgba(154, 0, 0, 0.247)";
+            var colour = "#fa0000f0";
             switch (i){
                 case 1:
-                    colour = "rgba(154, 0, 0, 0.247)";
+                    colour = "#fa0000f0";
                     break;
                 case 2:
-                    colour = "rgba(154, 0, 0, 0.247)";
+                    colour = "#fa0000f0";
                     break;
                 case 3:
-                    colour = "rgba(154, 0, 0, 0.247)";
+                    colour = "#fa0000f0";
                     break;
             }
             var isAlive = true;
@@ -365,13 +567,13 @@ Your browser does not support the audio element.
         }
         var particleCount;
         if (window.innerWidth > 768){
-            particleCount = 100;
+            particleCount = 400;
         } else if (window.innerWidth < 460){
-            particleCount = 50;
+            particleCount = 400;
         } else {
-            particleCount = 75;
+            particleCount = 400;
         }
-        particleCountDiv.innerHTML = "-bubble count: " + particleCount;
+     
         for (var i = 0; i < particleCount; i++){
             createCircle(i);
         }
@@ -402,7 +604,7 @@ Your browser does not support the audio element.
                         particleCount--;
                     }
                     circles[i][6] = false;
-                    if (circles[i][5] == "rgba(154, 0, 0, 0.247)"){
+                    if (circles[i][5] == "#fa0000f0"){
                         pinkBubbleSound.play(0);
                     } else if (i % 4 === 0){
                         pinkBubbleSound.play(0);
@@ -470,7 +672,7 @@ Your browser does not support the audio element.
             } else {
                 particleCount = 75;
             }
-            particleCountDiv.innerHTML = "-bubble count: " + particleCount;
+            
             context.clearRect(0, 0, canvas.width, canvas.height); // clear the canvas
             circles = [];
             for (var i = 0; i < particleCount; i++){
@@ -486,26 +688,26 @@ Your browser does not support the audio element.
                     circles[i][5] = "#rgba(154, 0, 0, 0.247)";
                     switch (i){
                         case 1:
-                            circles[i][5] = "rgba(154, 0, 0, 0.247)";
+                            circles[i][5] = "#fa0000f0";
                             break;
                         case 2:
-                            circles[i][5] = "rgba(154, 0, 0, 0.247)";
+                            circles[i][5] = "#fa0000f0";
                             break;
                         case 3:
-                            circles[i][5] = "rgba(154, 0, 0, 0.247)";
+                            circles[i][5] = "#fa0000f0";
                             break;
                     }
                 } else {
-                    circles[i][5] = "rgba(154, 0, 0, 0.247)";
+                    circles[i][5] = "#fa0000f0";
                     switch (i){
                         case 1:
-                            circles[i][5] = "rgba(154, 0, 0, 0.247)";
+                            circles[i][5] = "#fa0000f0";
                             break;
                         case 2:
-                            circles[i][5] = "rgba(154, 0, 0, 0.247)";
+                            circles[i][5] = "#fa0000f0";
                             break;
                         case 3:
-                            circles[i][5] = "rgba(154, 0, 0, 0.247)";
+                            circles[i][5] = "#fa0000f0";
                             break;
                     }
                 }
@@ -568,7 +770,7 @@ Your browser does not support the audio element.
         window.addEventListener('resize', resetBubbles);
     })();
       
-      </script>-->
+      </script>
    
 
         
